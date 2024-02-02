@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"poppins","sans-serif";
+    box-sizing: border-box;
+}
+
+
+.container{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-green-plaid-background-picture-image_1176972.jpg);
+      background-repeat:no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* flex-direction: row; */
+}
+.callculator{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.callculator form input{
+    border: 0;
+    outline: 0;
+    width:80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:flex-end;
+    margin: 20px 0;
+    /* box-shadow: none; */
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: -3px -3px 10x rgba(199, 231, 217, 0.1),3px 3px 10px rgba(199, 190, 190, 0.2);
+    outline-width: 20px;
+}
+form input.equal{
+    width: 182px;
+       
+}
+ 
+form input.operator{
+    color: #33ffd8;
+}
+  
+
